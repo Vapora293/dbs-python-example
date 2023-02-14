@@ -5,6 +5,6 @@ class Settings(BaseSettings):
     class Config:
         case_sensitive = True
 
-    NAME: str = "something"
+    NAME: str
 
 settings = Settings()
